@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: gray
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 230px;
+    height: 400px;
+}
+img{
+    border-radius: 10px;
+    margin-block: 17px;
+    height: 200px;
+}
+.text{
+    width: auto;
+}
+.text__bold{
+    font-size: larger;
+    margin: auto;
+    width: 230px;
+    padding-bottom: 18px;
+}
+.text__simple{
+    font-size: smaller;
+    color: rgba(128, 128, 128, 0.671);
+    width: 200px;
+    margin: auto;
+}
